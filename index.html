@@ -1,0 +1,28 @@
+
+
+<DOCTYPE html>
+  <head>
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width,initial-scale=1"/>
+                <link rel="stylesheet" href="lib/leaflet/leaflet.css"/>
+
+
+                <script src="lib/leaflet/leaflet.js"></script>
+                <script src="data/countries.geojson"></script>
+
+                <style type ="text/css">
+                  #map {height: 400px;}
+
+                </style>
+  </head>
+    <body>
+
+
+              <div id="map"></div>
+              <Script>
+                    var map = L.map('map').setView([-3.743812,-38.535847],13); <!-- Localização IFCE -->
+                    var countriesLayer= L.geoJson(countries).addTo(map);
+              </script>
+
+   </body>
+</html>
