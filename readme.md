@@ -28,5 +28,4 @@ ex:  <script>
 
 
 
-
-      ![alt tag](http://ericsteinborn.com/github-for-cats/img/ironcat.png)
+![alt tag](http://ericsteinborn.com/github-for-cats/img/ironcat.png)
